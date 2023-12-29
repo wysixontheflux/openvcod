@@ -1,7 +1,3 @@
-//
-// Created by Enzo Deshayes on 29/12/2023.
-//
-
 #ifndef OPENVCOD_CLIENT_HANDLER_H
 #define OPENVCOD_CLIENT_HANDLER_H
 
@@ -9,7 +5,7 @@
 
 class ClientHandler {
 public:
-    ClientHandler(/* int clientSocket */);
+    ClientHandler(int clientSocket);  // Assurez-vous que cette déclaration correspond à la définition
     std::string receiveData();
     void sendData(const std::string& data);
 
@@ -18,4 +14,3 @@ private:
 };
 
 #endif // OPENVCOD_CLIENT_HANDLER_H
-

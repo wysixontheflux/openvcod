@@ -1,8 +1,11 @@
-//
-// Created by Enzo Deshayes on 29/12/2023.
-//
+#ifndef OPENVCOD_VERSION_DETECTOR_H
+#define OPENVCOD_VERSION_DETECTOR_H
 
-#ifndef OPENVCOD_VERSIONDETECTOR_H
-#define OPENVCOD_VERSIONDETECTOR_H
+#include "ClientHandler.h"
 
-#endif //OPENVCOD_VERSIONDETECTOR_H
+class VersionDetector {
+public:
+    int detect(ClientHandler& client);
+};
+
+#endif // OPENVCOD_VERSION_DETECTOR_H
