@@ -4,7 +4,6 @@
 
 #include "../include/NetworkUtils.h"
 
-#include "NetworkUtils.h"
 
 // Implémentez des fonctions utilitaires pour le réseau, par exemple :
 std::string NetworkUtils::formatData(const std::string& data) {

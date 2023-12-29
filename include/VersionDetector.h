@@ -1,0 +1,8 @@
+//
+// Created by Enzo Deshayes on 29/12/2023.
+//
+
+#ifndef OPENVCOD_VERSIONDETECTOR_H
+#define OPENVCOD_VERSIONDETECTOR_H
+
+#endif //OPENVCOD_VERSIONDETECTOR_H

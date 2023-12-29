@@ -1,6 +1,6 @@
 #include "../include/ClientHandler.h"
 
-ClientHandler::ClientHandler(/* int socket */) : clientSocket(socket) {
+ClientHandler::ClientHandler(int socket) : clientSocket(socket) {
     // Initialiser la gestion du client
 }
 

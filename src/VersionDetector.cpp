@@ -1,5 +1,5 @@
-#include "VersionDetector.h"
-#include "ClientHandler.h"
+#include "../include/VersionDetector.h"
+#include "../include/ClientHandler.h"
 
 int VersionDetector::detect(ClientHandler& client) {
     // Implémentez la logique pour détecter la version du client
