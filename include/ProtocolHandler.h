@@ -1,0 +1,8 @@
+//
+// Created by Enzo Deshayes on 29/12/2023.
+//
+
+#ifndef OPENVCOD_PROTOCOLHANDLER_H
+#define OPENVCOD_PROTOCOLHANDLER_H
+
+#endif //OPENVCOD_PROTOCOLHANDLER_H
